@@ -1,0 +1,1212 @@
+2015-12-09 09:51:27 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-09 09:51:41 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-09 10:24:47 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-09 11:13:19 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-09 11:37:58 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-09 11:48:47 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT \'glpi\' AS currentuser,
+                         `glpi_computers`.`name` AS `ITEM_0`,
+                        `glpi_computers`.`id` AS `ITEM_0_id`,
+                        `glpi_states`.`completename` AS `ITEM_1`,  `glpi_manufacturers`.`name` AS `ITEM_2`,  `glpi_computers`.`serial` AS `ITEM_3`,  `glpi_computertypes`.`name` AS `ITEM_4`,  `glpi_computermodels`.`name` AS `ITEM_5`,  `glpi_operatingsystems`.`name` AS `ITEM_6`,  `glpi_locations`.`completename` AS `ITEM_7`,  `glpi_computers`.`date_mod` AS `ITEM_8`,   GROUP_CONCAT(DISTINCT CONCAT(IFNULL(`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`designation`, \'__NULL__\'),
+                                               \'$#$\',`glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`) SEPARATOR \'$$##$$\')
+                              AS `ITEM_9`,
+                  
+                  `glpi_computers`.`id` AS id  FROM `glpi_computers`LEFT JOIN `glpi_states` 
+                                          ON (`glpi_computers`.`states_id` = `glpi_states`.`id`
+                                              )LEFT JOIN `glpi_manufacturers` 
+                                          ON (`glpi_computers`.`manufacturers_id` = `glpi_manufacturers`.`id`
+                                              )LEFT JOIN `glpi_computertypes` 
+                                          ON (`glpi_computers`.`computertypes_id` = `glpi_computertypes`.`id`
+                                              )LEFT JOIN `glpi_computermodels` 
+                                          ON (`glpi_computers`.`computermodels_id` = `glpi_computermodels`.`id`
+                                              )LEFT JOIN `glpi_operatingsystems` 
+                                          ON (`glpi_computers`.`operatingsystems_id` = `glpi_operatingsystems`.`id`
+                                              )LEFT JOIN `glpi_locations` 
+                                          ON (`glpi_computers`.`locations_id` = `glpi_locations`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceprocessors` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceprocessors`.`items_id`
+                                              AND `glpi_items_deviceprocessors`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceprocessors`  AS `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`
+                                          ON (`glpi_items_deviceprocessors`.`deviceprocessors_id` = `glpi_deviceprocessors_7083fb7d2b7a8b8abd619678acc5b604`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemversions` 
+                                          ON (`glpi_computers`.`operatingsystemversions_id` = `glpi_operatingsystemversions`.`id`
+                                              )LEFT JOIN `glpi_operatingsystemservicepacks` 
+                                          ON (`glpi_computers`.`operatingsystemservicepacks_id` = `glpi_operatingsystemservicepacks`.`id`
+                                              )LEFT JOIN `glpi_autoupdatesystems` 
+                                          ON (`glpi_computers`.`autoupdatesystems_id` = `glpi_autoupdatesystems`.`id`
+                                              )LEFT JOIN `glpi_users` 
+                                          ON (`glpi_computers`.`users_id` = `glpi_users`.`id`
+                                              )LEFT JOIN `glpi_groups` 
+                                          ON (`glpi_computers`.`groups_id` = `glpi_groups`.`id`
+                                              )LEFT JOIN `glpi_networks` 
+                                          ON (`glpi_computers`.`networks_id` = `glpi_networks`.`id`
+                                              )LEFT JOIN `glpi_domains` 
+                                          ON (`glpi_computers`.`domains_id` = `glpi_domains`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_tech`
+                                          ON (`glpi_computers`.`users_id_tech` = `glpi_users_users_id_tech`.`id`
+                                              )LEFT JOIN `glpi_groups`  AS `glpi_groups_groups_id_tech`
+                                          ON (`glpi_computers`.`groups_id_tech` = `glpi_groups_groups_id_tech`.`id`
+                                              )LEFT JOIN `glpi_entities` 
+                                          ON (`glpi_computers`.`entities_id` = `glpi_entities`.`id`
+                                              ) LEFT JOIN `glpi_notepads` 
+                                          ON (`glpi_computers`.`id` = `glpi_notepads`.`items_id`
+                                              AND `glpi_notepads`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_users`  AS `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id` = `glpi_users_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              )LEFT JOIN `glpi_users`  AS `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`
+                                          ON (`glpi_notepads`.`users_id_lastupdater` = `glpi_users_users_id_lastupdater_b3b5a7d05c83a62a0feeab2b08131928`.`id`
+                                              ) LEFT JOIN `glpi_items_devicememories` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicememories`.`items_id`
+                                              AND `glpi_items_devicememories`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicememories`  AS `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`
+                                          ON (`glpi_items_devicememories`.`devicememories_id` = `glpi_devicememories_5e148733ade5941618d72f3f8d940b1c`.`id`
+                                              ) LEFT JOIN `glpi_items_devicenetworkcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicenetworkcards`.`items_id`
+                                              AND `glpi_items_devicenetworkcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicenetworkcards`  AS `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`
+                                          ON (`glpi_items_devicenetworkcards`.`devicenetworkcards_id` = `glpi_devicenetworkcards_1006b9c36acb1b209506af6cc85ea8e5`.`id`
+                                              ) LEFT JOIN `glpi_items_devicesoundcards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicesoundcards`.`items_id`
+                                              AND `glpi_items_devicesoundcards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicesoundcards`  AS `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`
+                                          ON (`glpi_items_devicesoundcards`.`devicesoundcards_id` = `glpi_devicesoundcards_433f13bbaeea7d734878f2540567e032`.`id`
+                                              ) LEFT JOIN `glpi_items_devicegraphiccards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicegraphiccards`.`items_id`
+                                              AND `glpi_items_devicegraphiccards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicegraphiccards`  AS `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`
+                                          ON (`glpi_items_devicegraphiccards`.`devicegraphiccards_id` = `glpi_devicegraphiccards_acd922555250a073623bf0451b9d9a38`.`id`
+                                              ) LEFT JOIN `glpi_items_devicemotherboards` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicemotherboards`.`items_id`
+                                              AND `glpi_items_devicemotherboards`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicemotherboards`  AS `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`
+                                          ON (`glpi_items_devicemotherboards`.`devicemotherboards_id` = `glpi_devicemotherboards_c98c96e9d3586c7178ca400a70495158`.`id`
+                                              ) LEFT JOIN `glpi_items_deviceharddrives` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_deviceharddrives`.`items_id`
+                                              AND `glpi_items_deviceharddrives`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_deviceharddrives`  AS `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`
+                                          ON (`glpi_items_deviceharddrives`.`deviceharddrives_id` = `glpi_deviceharddrives_65bd144f61164951cc9d21d0d2df9803`.`id`
+                                              ) LEFT JOIN `glpi_items_devicepowersupplies` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_devicepowersupplies`.`items_id`
+                                              AND `glpi_items_devicepowersupplies`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_devicepowersupplies`  AS `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`
+                                          ON (`glpi_items_devicepowersupplies`.`devicepowersupplies_id` = `glpi_devicepowersupplies_c398f5c771d557e371cee28c1fdf8d40`.`id`
+                                              ) LEFT JOIN `glpi_computerdisks` 
+                                             ON (`glpi_computers`.`id` = `glpi_computerdisks`.`computers_id`
+                                                 )LEFT JOIN `glpi_filesystems`  AS `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`
+                                          ON (`glpi_computerdisks`.`filesystems_id` = `glpi_filesystems_f4d55e964d9d82f37495b7a2e25ad023`.`id`
+                                              ) LEFT JOIN `glpi_computervirtualmachines` 
+                                             ON (`glpi_computers`.`id` = `glpi_computervirtualmachines`.`computers_id`
+                                                 )LEFT JOIN `glpi_virtualmachinestates`  AS `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinestates_id` = `glpi_virtualmachinestates_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinesystems`  AS `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinesystems_id` = `glpi_virtualmachinesystems_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              )LEFT JOIN `glpi_virtualmachinetypes`  AS `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`
+                                          ON (`glpi_computervirtualmachines`.`virtualmachinetypes_id` = `glpi_virtualmachinetypes_621ca74c5d8fbc34aff4a1a32ecb6749`.`id`
+                                              ) LEFT JOIN `glpi_items_tickets` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_tickets`.`items_id`
+                                              AND `glpi_items_tickets`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_tickets`  AS `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`
+                                          ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets_5616286c5b3dd4a6962c1b9f8153d45a`.`id`
+                                               ) LEFT JOIN `glpi_items_problems` 
+                                          ON (`glpi_computers`.`id` = `glpi_items_problems`.`items_id`
+                                              AND `glpi_items_problems`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_problems`  AS `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`
+                                          ON (`glpi_items_problems`.`problems_id` = `glpi_problems_ad1d1102b08981d196811ea88b1a2f20`.`id`
+                                               ) LEFT JOIN `glpi_networkports` 
+                                          ON (`glpi_computers`.`id` = `glpi_networkports`.`items_id`
+                                              AND `glpi_networkports`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_ipaddresses`  AS `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`
+                                          ON (`glpi_computers`.`id` = `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitems_id`
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`mainitemtype` = \'Computer\'
+                                              AND `glpi_ipaddresses_0cc35feab42e5909929ff742b4834540`.`is_deleted` = 0 )  LEFT JOIN `glpi_networknames`  AS `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`
+                                          ON (`glpi_networkports`.`id` = `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`items_id`
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`itemtype` = \'NetworkPort\'
+                                              AND `glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`is_deleted` = 0 )  LEFT JOIN `glpi_networkaliases`  AS `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`
+                                             ON (`glpi_networknames_1c35f844286c802e0cbde4560b5d579e`.`id` = `glpi_networkaliases_6b58840734724ba61c4de242e4e4478a`.`networknames_id`
+                                                 ) LEFT JOIN `glpi_networkportethernets`  AS `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_netpoints`  AS `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`
+                                          ON (`glpi_networkportethernets_23c902de5f3b180b2aef9e32e62e03a6`.`netpoints_id` = `glpi_netpoints_a7fd7b30c471084080574bf16e4d53aa`.`id`
+                                              ) LEFT JOIN `glpi_networkportwifis`  AS `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`
+                                             ON (`glpi_networkports`.`id` = `glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`networkports_id`
+                                                 )LEFT JOIN `glpi_wifinetworks`  AS `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`
+                                          ON (`glpi_networkportwifis_23c902de5f3b180b2aef9e32e62e03a6`.`wifinetworks_id` = `glpi_wifinetworks_29f46d60d7ee1157e60e5048796a9ca8`.`id`
+                                              ) LEFT JOIN `glpi_networkports_vlans` 
+                                             ON (`glpi_networkports`.`id` = `glpi_networkports_vlans`.`networkports_id`
+                                                 )LEFT JOIN `glpi_vlans`  AS `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`
+                                          ON (`glpi_networkports_vlans`.`vlans_id` = `glpi_vlans_30b720f4ff8116eb3dfe981ed77541e0`.`id`
+                                              ) LEFT JOIN `glpi_contracts_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_contracts_items`.`items_id`
+                                              AND `glpi_contracts_items`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_contracts`  AS `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`
+                                          ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id`
+                                              )LEFT JOIN `glpi_contracttypes`  AS `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`
+                                          ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`contracttypes_id` = `glpi_contracttypes_8c799389c5430add67bdf72b7ce194bd`.`id`
+                                              ) LEFT JOIN `glpi_contractcosts`  AS `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`
+                                             ON (`glpi_contracts_75a921d1c48c76553dc0a9e69050f745`.`id` = `glpi_contractcosts_8c799389c5430add67bdf72b7ce194bd`.`contracts_id`
+                                                 ) LEFT JOIN `glpi_documents_items` 
+                                          ON (`glpi_computers`.`id` = `glpi_documents_items`.`items_id`
+                                              AND `glpi_documents_items`.`itemtype` = \'Computer\'
+                                              )  LEFT JOIN `glpi_infocoms` 
+                                          ON (`glpi_computers`.`id` = `glpi_infocoms`.`items_id`
+                                              AND `glpi_infocoms`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_budgets`  AS `glpi_budgets_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`budgets_id` = `glpi_budgets_93d644b41c3544155af36e354b01ba13`.`id`
+                                              )LEFT JOIN `glpi_suppliers`  AS `glpi_suppliers_93d644b41c3544155af36e354b01ba13`
+                                          ON (`glpi_infocoms`.`suppliers_id` = `glpi_suppliers_93d644b41c3544155af36e354b01ba13`.`id`
+                                              ) LEFT JOIN `glpi_links_itemtypes` 
+                                          ON (`glpi_links_itemtypes`.`itemtype` = \'Computer\'
+                                              ) LEFT JOIN `glpi_links`  AS `glpi_links_ff2a378adbb623734295d631bc0c6584`
+                                          ON (`glpi_links_itemtypes`.`links_id` = `glpi_links_ff2a378adbb623734295d631bc0c6584`.`id`
+                                               ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_ocslinks`  AS `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_ocslinks__auto_update_ocs`.`computers_id`
+                                                 ) LEFT JOIN `glpi_plugin_ocsinventoryng_registrykeys` 
+                                             ON (`glpi_computers`.`id` = `glpi_plugin_ocsinventoryng_registrykeys`.`computers_id`
+                                                 ) WHERE  `glpi_computers`.`is_deleted` = \'0\'  AND `glpi_computers`.`is_template` = \'0\'  GROUP BY `glpi_computers`.`id` ORDER BY ITEM_0 ASC  LIMIT 0, 20
+  Error: Too many tables; MySQL can only use 61 tables in a join
+  Backtrace :
+  inc\search.class.php:903                           
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\computer.php:44                              Search::show()
+2015-12-11 10:22:52 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID IN (138,150)  AND (\'262103\' & hardware.CHECKSUM) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:2932 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.sync.php:75     PluginOcsinventoryngOcsServer::showComputersToUpdate()
+2015-12-11 10:24:26 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-11 10:24:29 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-11 10:25:53 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-11 10:26:02 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID IN (138,150)  AND (\'262103\' & hardware.CHECKSUM) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:2932 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.sync.php:75     PluginOcsinventoryngOcsServer::showComputersToUpdate()
+2015-12-11 10:26:09 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.link.php:83     PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-11 10:27:02 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-11 10:27:32 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID NOT IN (138,150) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3209 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-17 11:10:00 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID IN (27) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  plugins\ocsinventoryng\inc\ocsclient.class.php:259 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\hook.php:1537               PluginOcsinventoryngOcsClient->getComputer()
+  :                                                  plugin_ocsinventoryng_ruleCollectionPrepareInputDataForProcess()
+  inc\plugin.class.php:1166                          call_user_func()
+  inc\rulecollection.class.php:1622                  Plugin::doOneHook()
+  inc\rulecollection.class.php:1448                  RuleCollection->prepareInputDataForProcessWithPlugins()
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3307 RuleCollection->processAllRules()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-17 11:10:21 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: SELECT DISTINCT hardware.ID FROM hardware, accountinfo
+                        WHERE hardware.DEVICEID NOT LIKE \'\\_%\'
+                        AND hardware.ID = accountinfo.HARDWARE_ID
+                         AND hardware.ID IN (28) 
+  Error: 
+  Backtrace :
+  ...ns\ocsinventoryng\inc\ocsdbclient.class.php:423 
+  plugins\ocsinventoryng\inc\ocsclient.class.php:259 PluginOcsinventoryngOcsDbClient->getComputers()
+  plugins\ocsinventoryng\hook.php:1537               PluginOcsinventoryngOcsClient->getComputer()
+  :                                                  plugin_ocsinventoryng_ruleCollectionPrepareInputDataForProcess()
+  inc\plugin.class.php:1166                          call_user_func()
+  inc\rulecollection.class.php:1622                  Plugin::doOneHook()
+  inc\rulecollection.class.php:1448                  RuleCollection->prepareInputDataForProcessWithPlugins()
+  ...ins\ocsinventoryng\inc\ocsserver.class.php:3307 RuleCollection->processAllRules()
+  plugins\ocsinventoryng\front\ocsng.import.php:111  PluginOcsinventoryngOcsServer::showComputersToAdd()
+2015-12-17 12:46:17 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 12:46:58 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 13:00:20 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 13:02:09 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 13:03:08 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 13:04:06 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_plugin_datainjection_mappings` (`models_id`,`rank`,`name`,`value`,`itemtype`) VALUES (\'1\',0,\'NOMBRE,USUARIO,CONTRASENA,CORREO\\rCHAVEZ ROHTDAZ OSCAR IDES,ochavez,ochavez123,oscarchavez@epam.gob.ec\\rDELGADO MENOSCAL CARLOS SEGUNDO,cdelgado,cdelgado123,carlosdelgado@epam.gob.ec\\rDELGADO VASQUEZ JORGE,jdelgado,jdelgado123,\\rGARCIA BERMUDEZ YENNY MIRELLA,ybermudez,ybermudez123,jennygarcia@epam.gob.ec\\rGILER CEVALLOS FREDDY ARNALDO,fgiler,fgiler123,freddygiler@epam.gob.ec\\rGUADAMUD CANTOS RUBEN DARIO,rguadamud,rguadamud123,rubenguadamud@epam.gob.ec\\rINDARTE ROLDAN ANGELA MAGDALENA,aindarte,aindarte123,angelaindarte@epam.gob.ec\\rJIMENEZ REALPE WALTER LUIS,wjimenez,wjimenez123,\\rLOOR CEVALLOS LUIS MIGUEL,lloor,lloor132,luisloor@epam.gob.ec\\rLOURIDO PONCE JAIME ROBERTO,jlourido,jlourido123,robertolourido@epam.gob.ec\\rMACIAS LOPEZ PAUL DOUGLAS,pmacias,pmacias123,paulmacias@epam.gob.ec\\rMERA CHAVEZ AUDY LUIS,amera,amera123,\\rMORA ALAY WILBER FRANKLIN,wmora,wmora123,wilbermora@epam.gob.ec\\rMORA MORA ELIO IVAN,emora,emora123,\\rPALACIO MOREIRA JORGE EDUARDO,jpalacio,jpalacio123,jorgepalacio@epam.gob.ec\\rPALMA PONCE MIGUEL,mpalma,mpalma123,\\rPARRALES RODRIGUEZ RICHARD BYRON,rparrales,rparrales123,richardparrales@epam.gob.ec\\rPOSLIGUA MENDOZA LISTER VITAL,lposligua,lposligua123,listerposligua@epam.gob.ec\\rSANTANA PONCE JUAN CARLOS,jsantana,jsantana123,jcsantana@epam.gob.ec\\rVILLACRESES MERA RONALD XAVIER,rvillacreses,rvillacreses123,ronaldvillacreses@epam.gob.ec\',\'none\',\'none\')
+  Error: Data too long for column 'name' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:425                       
+  inc\commondbtm.class.php:831                       CommonDBTM->addToDB()
+  ...tainjection\inc\mappingcollection.class.php:131 CommonDBTM->add()
+  plugins\datainjection\inc\model.class.php:982      PluginDatainjectionMappingCollection->saveAllMappings()
+  plugins\datainjection\front\model.form.php:80      PluginDatainjectionModel->processUploadedFile()
+2015-12-17 13:37:46 [2@ETGTIC08]
+  *** MySQL query error:
+  SQL: UPDATE `glpi_plugin_datainjection_modelcsvs`
+                       SET `delimiter` = \' ,\' WHERE `id` =\'1\'
+  Error: Data too long for column 'delimiter' at row 1
+  Backtrace :
+  inc\commondbtm.class.php:357                       
+  inc\commondbtm.class.php:1116                      CommonDBTM->updateInDB()
+  plugins\datainjection\inc\modelcsv.class.php:174   CommonDBTM->update()
+  plugins\datainjection\front\model.form.php:66      PluginDatainjectionModelcsv->saveFields()

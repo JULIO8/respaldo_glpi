@@ -1,0 +1,1586 @@
+2015-11-20 15:32:16 [@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-11-20 15:36:42 [@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-11-20 15:37:46 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-20 15:37:55 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 16:17:15 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 16:17:17 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-11-20 16:17:19 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-20 16:17:50 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-11-20 16:18:40 [@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-11-20 16:18:54 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-11-20 16:20:02 [@ETTICSDE-IV]
+Interno #1: Lanzar optimize
+2015-11-20 16:24:24 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 16:31:49 [@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-11-20 16:34:20 [2@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-20 16:41:33 [2@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-20 16:51:42 [2@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-11-20 16:57:47 [2@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-11-20 16:58:14 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 17:05:56 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 17:06:26 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 17:13:05 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 17:15:46 [2@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-20 17:20:17 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 17:20:36 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 17:20:37 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 17:20:38 [2@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-20 17:20:50 [2@ETTICSDE-IV]
+Interno #1: Nada que lanzar
+2015-11-20 17:25:59 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 17:44:07 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 17:49:23 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 18:01:06 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 18:04:33 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 18:06:37 [2@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-20 18:12:47 [2@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-20 18:19:01 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 18:24:59 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 18:26:01 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 18:27:28 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 18:31:26 [2@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-20 18:37:41 [2@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-20 18:46:22 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 18:48:29 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 18:49:13 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 18:49:28 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 18:50:22 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 18:50:35 [@ETTICSDE-IV]
+Interno #1: Nada que lanzar
+2015-11-20 18:52:56 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 19:01:16 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 19:03:39 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-20 19:04:08 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-20 19:04:16 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-20 19:04:24 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 19:07:38 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-20 19:09:29 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-23 14:38:16 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 14:38:34 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 14:38:46 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-23 14:43:53 [2@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-23 14:45:11 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-23 14:48:53 [2@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-23 14:51:43 [2@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-23 14:53:58 [2@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-23 14:54:23 [@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-11-23 14:55:27 [@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-11-23 14:57:54 [@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-11-23 14:58:18 [@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-11-23 14:58:45 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-11-23 14:59:10 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-11-23 15:02:09 [3@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-11-23 15:02:13 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-11-23 15:03:16 [@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-11-23 15:04:01 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 15:05:32 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 15:10:50 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-23 15:10:55 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-23 15:12:14 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 15:12:16 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 15:12:17 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 15:12:18 [2@ETTICSDE-IV]
+Interno #1: Lanzar CleanOldThreads
+2015-11-23 15:12:19 [2@ETTICSDE-IV]
+Interno #1: Lanzar SendAlerts
+2015-11-23 15:12:27 [@ETTICSDE-IV]
+Interno #1: Nada que lanzar
+2015-11-23 16:30:54 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 16:33:01 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-23 16:33:25 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 16:34:39 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-23 16:34:46 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-23 16:35:19 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-23 16:37:22 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-23 16:38:29 [2@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-23 16:39:21 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 16:40:26 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 16:45:36 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-23 16:46:00 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 17:37:02 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-23 17:37:40 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-23 18:00:51 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-23 18:01:00 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-24 14:56:21 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-24 15:05:22 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-24 15:05:47 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-24 15:10:12 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-24 15:10:19 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-24 15:10:24 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-25 15:09:27 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 15:17:35 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-25 15:41:35 [2@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-11-25 15:50:34 [2@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-11-25 15:59:45 [2@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-11-25 16:00:28 [@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-11-25 16:00:44 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-11-25 16:49:40 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-11-25 16:51:28 [@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-11-25 17:04:15 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-11-25 17:45:12 [@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-11-25 17:46:43 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-25 17:48:23 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-25 17:48:43 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-25 17:49:17 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-25 17:50:29 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-25 17:50:56 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-25 17:51:27 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 17:52:11 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-25 17:53:20 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-25 17:53:32 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 17:53:53 [@ETTICSDE-IV]
+Interno #1: Lanzar SendAlerts
+2015-11-25 17:58:19 [10@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 17:59:02 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-25 18:04:00 [10@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-25 18:11:10 [10@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-25 18:12:33 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 18:46:22 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-25 18:46:36 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-25 18:47:24 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-25 18:48:49 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 14:59:38 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:01:24 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-26 15:02:07 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-26 15:06:06 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-26 15:07:27 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-26 15:08:29 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 15:11:46 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 15:11:57 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 15:12:01 [@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-11-26 15:12:04 [@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-11-26 15:12:16 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:12:44 [@ETTICSDE-IV]
+Interno #1: Lanzar CleanOldThreads
+2015-11-26 15:13:09 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 15:13:18 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:13:37 [@ETTICSDE-IV]
+Interno #1: Lanzar SendAlerts
+2015-11-26 15:17:32 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:21:09 [6@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 15:21:21 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 15:21:44 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:26:40 [6@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 15:32:41 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 15:45:43 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 15:57:09 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:03:44 [7@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:05:14 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 16:08:09 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 16:08:37 [@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-11-26 16:09:50 [7@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-11-26 16:10:43 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-11-26 16:14:44 [7@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-26 16:15:26 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-26 16:15:58 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:16:36 [7@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:16:41 [7@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-26 16:20:31 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-26 16:22:27 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 16:22:54 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 16:23:13 [7@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:25:30 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:29:06 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:29:40 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 16:29:44 [8@ETTICSDE-IV]
+Interno #1: Lanzar SendAlerts
+2015-11-26 16:35:49 [7@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:38:39 [3@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:40:57 [7@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 16:43:17 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 16:43:22 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:43:29 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:44:25 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:45:34 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:46:18 [7@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:46:25 [@ETTICSDE-IV]
+Interno #1: Lanzar CleanOldThreads
+2015-11-26 16:48:43 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:48:59 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 16:50:58 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 16:51:10 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 16:52:41 [10@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-11-26 16:58:27 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 17:00:43 [@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-11-26 17:01:15 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 17:02:18 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 17:22:10 [3@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-26 17:24:01 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-26 17:27:26 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-11-26 18:45:04 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-26 18:48:45 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-26 18:51:14 [2@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-26 18:51:18 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-26 18:55:11 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-26 18:55:58 [7@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-27 15:44:16 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-27 17:33:22 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-27 17:33:30 [@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-11-27 17:33:36 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-27 17:33:50 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-27 19:09:23 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-27 19:15:20 [3@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-27 19:17:28 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-30 15:56:59 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-30 15:58:30 [@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-11-30 15:58:31 [@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-11-30 16:00:33 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-30 16:00:47 [@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-11-30 16:56:34 [7@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-11-30 16:56:48 [7@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-11-30 17:34:37 [@ETTICSDE-IV]
+Interno #1: Lanzar optimize
+2015-11-30 17:35:42 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-11-30 17:47:56 [7@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-11-30 17:48:14 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-11-30 17:53:27 [3@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-30 18:19:30 [2@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-30 18:21:06 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-30 18:24:39 [2@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-11-30 18:24:47 [2@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-11-30 18:24:51 [2@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-11-30 18:29:59 [3@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-11-30 18:43:06 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-30 18:43:16 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-11-30 18:44:05 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-11-30 18:44:40 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-11-30 18:46:22 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-11-30 18:46:39 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-30 18:47:06 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-11-30 18:59:09 [2@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-12-01 15:28:52 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-12-01 16:06:57 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-12-01 16:08:55 [2@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-12-01 16:13:52 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-12-02 18:52:50 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-12-02 20:08:11 [@ETTICSDE-IV]
+Interno #1: Lanzar reservation
+2015-12-02 20:08:31 [@ETTICSDE-IV]
+Interno #1: Lanzar ticketrecurrent
+2015-12-02 20:08:47 [@ETTICSDE-IV]
+Interno #1: Lanzar temp
+2015-12-02 20:09:06 [@ETTICSDE-IV]
+Interno #1: Lanzar closeticket
+2015-12-02 20:21:54 [@ETTICSDE-IV]
+Interno #1: Lanzar alertnotclosed
+2015-12-02 20:32:41 [2@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-12-03 16:25:20 [@ETTICSDE-IV]
+Interno #1: Lanzar createinquest
+2015-12-03 17:45:13 [@ETTICSDE-IV]
+Interno #1: Lanzar planningrecall
+2015-12-03 17:46:05 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmail
+2015-12-03 17:52:14 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgate
+2015-12-03 18:32:27 [2@ETTICSDE-IV]
+Interno #1: Lanzar watcher
+2015-12-03 18:33:17 [@ETTICSDE-IV]
+Interno #1: Lanzar queuedmailclean
+2015-12-03 18:33:27 [@ETTICSDE-IV]
+Interno #1: Lanzar mailgateerror
+2015-12-03 18:33:38 [@ETTICSDE-IV]
+Interno #1: Lanzar contract
+2015-12-03 21:03:18 [@ETTICSDE-IV]
+Interno #1: Lanzar infocom
+2015-12-04 15:47:31 [@ETTICSDE-IV]
+Interno #1: Lanzar session
+2015-12-04 15:48:00 [@ETTICSDE-IV]
+Interno #1: Lanzar graph
+2015-12-04 15:48:19 [@ETTICSDE-IV]
+Interno #1: Lanzar slaticket
+2015-12-04 16:26:20 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-04 17:28:54 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-04 17:35:44 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-04 17:36:04 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-04 17:36:19 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-04 17:36:27 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 17:36:43 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 17:36:55 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 17:37:24 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 17:38:03 [@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-04 17:38:37 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-04 17:39:26 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-04 17:39:38 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 17:39:41 [@ETGTIC08]
+Interno #1: Lanzar SendAlerts
+2015-12-04 17:42:45 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 17:45:21 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 17:45:26 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 17:49:25 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 17:50:13 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 17:55:37 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 17:56:29 [10@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 17:57:04 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 18:09:41 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 18:14:56 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 18:22:14 [10@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 18:22:24 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 18:46:52 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 19:08:39 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 19:10:08 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 19:12:17 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 19:12:41 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-04 19:18:40 [2@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-04 19:19:15 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-04 19:24:26 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-04 19:24:59 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-04 19:29:46 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-04 19:30:47 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-04 19:35:15 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-04 19:35:58 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 19:42:03 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 19:44:18 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 19:50:41 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 19:55:48 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 19:56:54 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 19:57:24 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 19:57:42 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 19:58:04 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 19:58:26 [@ETGTIC08]
+Interno #1: Lanzar CleanOldThreads
+2015-12-04 19:58:47 [@ETGTIC08]
+Interno #1: Lanzar SendAlerts
+2015-12-04 19:58:54 [@ETGTIC08]
+Interno #1: Nada que lanzar
+2015-12-04 19:59:00 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 20:00:07 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 20:00:41 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 20:00:49 [@ETGTIC08]
+Interno #1: Nada que lanzar
+2015-12-04 20:05:49 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 20:11:03 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 20:11:28 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 20:12:32 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-04 20:16:30 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-04 20:16:53 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-04 14:17:49 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-04 14:22:59 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-04 14:26:58 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-07 11:48:21 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-07 11:49:17 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-07 12:02:47 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-07 12:05:58 [8@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-07 12:05:59 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-07 12:07:48 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-07 12:08:21 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-07 12:17:22 [@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-07 12:17:56 [6@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-07 12:30:00 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-07 12:35:35 [6@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-07 12:35:40 [6@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-07 12:41:53 [6@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-07 12:43:34 [@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-07 12:45:18 [@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-07 12:46:21 [@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-07 12:46:47 [@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-07 12:49:24 [@ETGTIC08]
+Interno #1: Lanzar optimize
+2015-12-07 12:52:34 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-07 12:53:08 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-07 12:53:25 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-07 12:57:33 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-07 14:13:35 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-07 14:23:44 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-07 14:47:17 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-07 14:47:33 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-07 14:53:10 [12@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-07 14:54:39 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-07 14:54:45 [12@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-07 14:58:25 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-07 15:00:57 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-07 15:33:48 [7@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-07 16:19:02 [6@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-07 16:19:17 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-08 09:00:11 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-08 09:18:47 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-08 09:19:00 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-08 09:20:07 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-08 09:33:54 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-08 09:35:08 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-08 09:35:09 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-08 10:00:37 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-08 10:03:18 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-08 11:17:23 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-09 09:39:49 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-09 09:51:11 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-09 09:56:39 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-09 10:01:42 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-09 10:02:34 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-09 10:07:35 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-09 10:12:56 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-09 10:17:59 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-09 10:23:07 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-09 10:25:44 [@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-09 10:28:50 [2@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-09 10:33:58 [2@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-09 10:39:00 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-09 10:39:06 [@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-09 10:40:51 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-09 10:40:54 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-09 10:41:20 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-09 10:44:07 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-09 10:58:34 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-09 11:05:00 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-09 11:11:21 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-09 11:16:25 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-09 11:23:30 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-09 11:29:01 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-09 11:34:15 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-09 11:39:26 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-09 11:44:31 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-09 11:49:52 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-09 11:50:36 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-09 11:52:08 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-09 11:53:19 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-09 12:08:59 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-09 13:07:35 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-09 13:44:38 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-10 09:26:32 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-10 09:26:33 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-10 10:01:28 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-10 10:08:15 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-10 10:20:03 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-10 10:25:12 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-10 11:03:10 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-10 11:26:54 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-10 11:31:55 [2@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-10 11:56:12 [2@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-10 12:27:55 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-10 12:33:09 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-10 12:39:32 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-10 12:47:44 [2@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-10 12:52:50 [2@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-10 12:58:06 [2@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-10 13:05:17 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-10 13:10:24 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-10 17:03:27 [@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-11 09:24:56 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-11 09:30:07 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 09:36:22 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-11 09:42:08 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-11 09:53:47 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-11 09:58:55 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 10:04:07 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-11 10:09:45 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-11 10:14:50 [2@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-11 10:19:52 [2@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-11 10:25:05 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 10:27:07 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 10:33:35 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-11 10:36:50 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-11 10:38:56 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-11 10:43:57 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 10:49:38 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 10:50:32 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-11 10:50:34 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-11 10:55:51 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-11 11:01:18 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 11:07:57 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-11 11:15:01 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-11 11:20:06 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 11:25:40 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-11 11:30:46 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 11:36:34 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-11 11:42:06 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 11:47:36 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-11 11:53:53 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-11 12:11:03 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-11 12:16:03 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-11 12:26:31 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-11 12:27:44 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-14 09:32:16 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-14 09:32:43 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-14 09:38:03 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-14 09:39:48 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-14 10:15:24 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-14 10:18:50 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-14 10:54:17 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-14 10:59:18 [2@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-14 12:46:17 [@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-15 12:10:55 [@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-16 08:26:27 [@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-16 09:24:41 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-16 09:33:47 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-16 09:38:50 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-16 09:39:06 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-16 09:54:18 [2@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-16 09:59:19 [2@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-16 18:12:18 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 09:58:32 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 10:22:50 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 10:24:28 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 10:28:19 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-17 10:29:55 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-17 10:32:38 [2@ETGTIC08]
+Interno #1: Lanzar optimize
+2015-12-17 10:33:05 [@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-17 10:33:50 [2@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-17 10:36:21 [12@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-17 10:36:35 [10@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-17 10:40:01 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-17 10:45:08 [2@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-17 10:47:30 [10@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 10:47:33 [10@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-17 10:48:31 [12@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-17 10:51:51 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-17 10:52:25 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-17 10:53:22 [10@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-17 10:53:38 [12@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 10:58:36 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 11:04:28 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 11:06:50 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 11:09:55 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 11:10:34 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 11:15:46 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 11:33:11 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 11:39:42 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 11:44:52 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 11:51:28 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 12:01:40 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-17 12:02:26 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-17 12:07:35 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-17 12:16:17 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-17 12:23:51 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 12:29:14 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 12:42:43 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 12:47:44 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 12:47:58 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 12:52:46 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 12:55:05 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 12:57:22 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 12:58:49 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 13:00:06 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 13:05:14 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 13:14:27 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 13:21:33 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-17 13:35:57 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-17 13:41:25 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-17 13:49:12 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-17 13:54:19 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-17 13:54:31 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-17 13:59:39 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-17 14:03:39 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-17 14:26:57 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-18 10:35:49 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-18 10:35:59 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-18 10:46:35 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-18 10:51:42 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-18 10:56:50 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-18 11:02:07 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-18 11:08:00 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-18 11:13:31 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-18 11:19:01 [2@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-18 11:32:08 [2@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-18 11:37:18 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-18 11:42:41 [2@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-18 13:04:53 [2@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-18 13:07:27 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-21 08:25:33 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-21 09:31:01 [@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-21 09:40:34 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-21 09:45:35 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-21 09:50:55 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-21 09:55:58 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-21 10:02:13 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-21 10:09:10 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-21 10:13:25 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-21 10:20:23 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-21 10:27:20 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-21 10:29:24 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-21 10:33:17 [2@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-21 10:34:54 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-21 10:39:12 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-21 10:44:30 [2@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-21 10:47:32 [2@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-21 10:51:07 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-21 10:52:33 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-21 10:53:02 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-21 11:11:56 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-21 11:56:47 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-21 12:10:49 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-21 12:21:53 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-21 12:55:08 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-21 12:55:28 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-21 12:56:18 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-21 12:56:36 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-21 12:56:56 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-21 12:57:54 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-21 14:10:25 [7@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-21 14:10:48 [7@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-21 14:22:53 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-22 09:06:33 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-22 09:06:38 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-22 09:29:36 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-22 09:31:25 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-22 09:40:10 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-22 09:42:58 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-22 09:50:29 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-22 09:53:49 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-22 09:54:10 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-22 09:59:28 [2@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-22 09:59:31 [2@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-22 10:00:18 [@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-22 10:00:32 [@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-22 10:06:43 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-22 10:10:26 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-22 10:15:29 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-22 10:18:29 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-22 10:43:10 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-22 10:48:53 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-22 10:54:46 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-22 10:59:57 [2@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-22 11:23:54 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-22 11:41:27 [@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-22 11:44:34 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-22 11:50:29 [2@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-23 09:36:45 [@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-23 09:55:55 [@ETGTIC08]
+Interno #1: Lanzar session
+2015-12-23 10:01:37 [2@ETGTIC08]
+Interno #1: Lanzar createinquest
+2015-12-23 10:08:13 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-23 10:11:30 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-23 10:12:32 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-23 10:14:57 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-23 10:15:19 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-23 10:24:34 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-23 10:24:38 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-23 10:25:39 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2015-12-23 11:23:20 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2015-12-23 12:31:58 [2@ETGTIC08]
+Interno #1: Lanzar contract
+2015-12-23 12:36:31 [2@ETGTIC08]
+Interno #1: Lanzar watcher
+2015-12-23 12:38:21 [2@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2015-12-23 12:43:31 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-23 15:17:52 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-23 15:17:57 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-23 15:24:01 [2@ETGTIC08]
+Interno #1: Lanzar mailgate
+2015-12-23 15:29:36 [2@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2015-12-23 15:34:48 [2@ETGTIC08]
+Interno #1: Lanzar temp
+2015-12-23 15:41:31 [2@ETGTIC08]
+Interno #1: Lanzar reservation
+2015-12-23 15:47:22 [2@ETGTIC08]
+Interno #1: Lanzar graph
+2015-12-23 16:00:13 [2@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2015-12-28 08:23:03 [@ETGTIC08]
+Interno #1: Lanzar infocom
+2015-12-29 08:34:18 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2015-12-29 08:34:35 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2015-12-29 09:38:00 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2015-12-29 12:15:53 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 09:49:35 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-04 09:50:07 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-04 09:56:04 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-04 09:56:30 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-04 09:59:08 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2016-01-04 10:07:03 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2016-01-04 10:08:49 [@ETGTIC08]
+Interno #1: Lanzar session
+2016-01-04 10:14:08 [3@ETGTIC08]
+Interno #1: Lanzar createinquest
+2016-01-04 10:14:16 [3@ETGTIC08]
+Interno #1: Lanzar optimize
+2016-01-04 10:17:07 [7@ETGTIC08]
+Interno #1: Lanzar contract
+2016-01-04 10:24:04 [3@ETGTIC08]
+Interno #1: Lanzar watcher
+2016-01-04 10:24:25 [3@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2016-01-04 10:24:40 [3@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2016-01-04 10:25:04 [3@ETGTIC08]
+Interno #1: Lanzar infocom
+2016-01-04 10:25:41 [10@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:25:59 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 10:26:32 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 10:26:48 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 10:27:04 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:27:25 [@ETGTIC08]
+Interno #1: Lanzar ocsng
+2016-01-04 10:29:53 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:36:12 [7@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 10:36:26 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:39:48 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 10:44:43 [7@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 10:44:57 [7@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:45:00 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 10:46:06 [3@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 10:47:08 [7@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:57:19 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 10:57:47 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-04 10:58:47 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-04 11:00:54 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 11:04:31 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 11:05:11 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 11:05:21 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-04 11:05:47 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-04 11:08:08 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 11:08:09 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 11:08:20 [@ETGTIC08]
+Interno #1: Lanzar SendAlerts
+2016-01-04 11:08:30 [@ETGTIC08]
+Interno #1: Lanzar CleanOldThreads
+2016-01-04 11:10:14 [3@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 11:11:49 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 11:11:52 [@ETGTIC08]
+Interno #1: Lanzar ocsng
+2016-01-04 11:13:16 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 11:16:46 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 11:16:59 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 11:24:05 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 11:30:21 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 11:40:42 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 11:47:19 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 11:47:31 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 11:49:22 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 12:54:31 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 15:39:44 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-04 15:49:50 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-04 15:53:03 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-04 15:54:32 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-04 15:57:15 [58@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-04 16:40:22 [6@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-04 16:47:11 [7@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-04 16:52:18 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-04 16:52:20 [7@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 08:03:22 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 08:03:32 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 08:03:44 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 10:03:58 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-05 10:42:40 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-05 11:00:06 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 11:00:13 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-05 11:00:18 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-05 11:00:41 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2016-01-05 11:04:48 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2016-01-05 12:55:50 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 12:58:45 [10@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 13:10:13 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 14:25:25 [@ETGTIC08]
+Interno #1: Lanzar session
+2016-01-05 14:28:23 [@ETGTIC08]
+Interno #1: Lanzar createinquest
+2016-01-05 14:28:51 [@ETGTIC08]
+Interno #1: Lanzar contract
+2016-01-05 14:30:33 [75@ETGTIC08]
+Interno #1: Lanzar watcher
+2016-01-05 14:32:35 [@ETGTIC08]
+Interno #1: Lanzar queuedmailclean
+2016-01-05 14:35:11 [@ETGTIC08]
+Interno #1: Lanzar mailgateerror
+2016-01-05 14:36:41 [@ETGTIC08]
+Interno #1: Lanzar infocom
+2016-01-05 14:37:13 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-05 14:37:21 [7@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 14:37:29 [7@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-05 14:38:20 [75@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-05 14:39:05 [7@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-05 14:39:05 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 14:44:10 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 14:46:30 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 14:47:35 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 14:47:40 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 14:47:45 [@ETGTIC08]
+Interno #1: Lanzar ocsng
+2016-01-05 14:50:02 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 14:50:49 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 14:53:19 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 14:54:18 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 14:55:40 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 14:56:03 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 14:56:12 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 14:58:08 [2@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:00:16 [75@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 15:03:07 [59@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:12:15 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 15:30:05 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:32:47 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 15:34:17 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 15:34:47 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 15:35:07 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:36:47 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:37:04 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-05 15:37:09 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 15:37:12 [10@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:42:16 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-05 15:49:03 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-05 15:54:46 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 15:56:08 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-05 15:56:40 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 15:56:40 [73@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 15:58:16 [73@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 15:59:28 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:00:18 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:04:10 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 16:05:03 [10@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 16:05:09 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:05:32 [@ETGTIC08]
+Interno #1: Lanzar SendAlerts
+2016-01-05 16:09:14 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:11:54 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 16:14:41 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 16:18:18 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 16:19:42 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:34:27 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 16:46:52 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 16:51:19 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 16:51:49 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 16:57:12 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-05 16:57:57 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 16:58:15 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-05 17:01:36 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 17:03:02 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-05 17:03:39 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-05 17:07:30 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 17:32:46 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-05 17:34:19 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-05 17:42:32 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-05 17:48:26 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-05 17:50:36 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-06 07:50:09 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-06 07:51:04 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-06 07:58:35 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-06 07:59:36 [@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-06 07:59:47 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-06 08:00:05 [@ETGTIC08]
+Interno #1: Lanzar temp
+2016-01-06 08:03:52 [@ETGTIC08]
+Interno #1: Lanzar graph
+2016-01-06 08:07:17 [@ETGTIC08]
+Interno #1: Lanzar ticketrecurrent
+2016-01-06 08:07:54 [@ETGTIC08]
+Interno #1: Lanzar closeticket
+2016-01-06 08:39:35 [@ETGTIC08]
+Interno #1: Lanzar alertnotclosed
+2016-01-06 08:43:13 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-06 09:18:55 [@ETGTIC08]
+Interno #1: Lanzar mailgate
+2016-01-06 09:26:31 [@ETGTIC08]
+Interno #1: Lanzar planningrecall
+2016-01-06 09:27:50 [67@ETGTIC08]
+Interno #1: Lanzar slaticket
+2016-01-06 09:36:57 [@ETGTIC08]
+Interno #1: Lanzar queuedmail
+2016-01-06 09:37:18 [@ETGTIC08]
+Interno #1: Lanzar reservation
+2016-01-06 10:32:31 [@ETGTIC08]
+Interno #1: Lanzar temp
